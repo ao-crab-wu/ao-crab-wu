@@ -18,6 +18,7 @@ for r in regions:
     candidates.add(r['rect'])
 print(candidates)
 fog,ax=plt.subplots(ncols=1,nrows=1,figsize=(6,6))
+#你好鸭
 ax.imshow(img)
 for x,y,w,h in candidates:
     print(x,y,w,h)
