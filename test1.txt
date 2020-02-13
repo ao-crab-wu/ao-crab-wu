@@ -27,3 +27,4 @@ for x,y,w,h in candidates:
     ax.add_patch(rect)
 plt.show()
 #康康我
+#快康康
